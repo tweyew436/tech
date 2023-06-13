@@ -20,3 +20,14 @@
 	win.document.body.innerHTML = result;
 
 })(window);
+{
+  "name": "anything-llm-frontend",
+  "private": false,
+  "version": "0.0.1-beta",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "lint": "yarn prettier --write ./src",
+    "preview": "vite preview"
+  }
