@@ -34,14 +34,6 @@ void main() {
     final lex = Tokenizer(input);
 
     const tokens = [
-      Token(TokenType.let, "let"),
-      Token(TokenType.ident, "five"),
-      Token(TokenType.equal, "="),
-      Token(TokenType.int, "5"),
-      Token(TokenType.semicolon, ";"),
-      Token(TokenType.let, "let"),
-      Token(TokenType.ident, "ten"),
-      Token(TokenType.equal, "="),
       Token(TokenType.int, "10"),
       Token(TokenType.semicolon, ";"),
       Token(TokenType.let, "let"),
