@@ -17,5 +17,4 @@ extend-exclude = [
     "test_code_tokenizer.py",
 ]
 
-[default.extend-words]
 ACI = "ACI" # Azure Container Instance
